@@ -1,0 +1,82 @@
+@font-face {
+  font-family: raleway;
+  src: local("Raleway"),
+       local("raleway"),
+       url(../fonts/raleway/Raleway-Regular.ttf);
+  font-weight: bold;
+}
+@font-face {
+  font-family: ralewayBold;
+  src: local("Raleway"),
+       local("raleway"),
+       url(../fonts/raleway/Raleway-Bold.ttf);
+  font-weight: bold;
+}
+
+body{
+  font-family: "raleway";
+}
+.navColn{
+  color: #1E3054 !important;
+  margin-top: 20px !important;
+  font-weight: bold !important;
+  font-family: ralewayBold;
+  font-size: 20px !important;
+}
+.tstmonial{
+  background-color: #172C4C !important;
+  position: relative !important;
+}
+.tstmonial_img{
+  position: absolute;
+  right: -49px;
+  top: -26px;
+  width: 65px;
+}
+.tstmonial_imgCircle{
+  position: absolute;
+  left: -49px;
+  top: -26px;
+  width: 65px;
+}
+.btn_callback{
+  border: 1px solid #fff !important;
+}
+.paragraphtext{
+  color:#fff !important;
+}
+.paragraphCon{
+  color:#fff !important;
+  font-size: 38px !important;
+}
+.paragraphTel{
+  color:#fff !important;
+  font-size: 50px !important;
+}
+.contactUs{  
+  background-color: #E8A128 !important;
+  line-height: 38px !important;
+}
+.navbord{
+  box-shadow: none !important;
+}
+.navhide{
+  margin-top: 20px !important;
+}
+.telHeading{
+  color:#8C8C8C !important;
+}
+.twntyFour{
+  color: #EAA128 !important;
+}
+.footerimg{
+  width: 142px !important;
+  margin-top: 14px !important;
+}
+@media all and (max-width: 400px) {
+    .brand-logo{
+      height: auto;
+      margin-left: 22px;
+      width: 262px;
+    }
+}

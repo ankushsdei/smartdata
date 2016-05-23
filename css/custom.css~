@@ -1,0 +1,59 @@
+@font-face {
+  font-family: raleway;
+  src: local("Raleway"),
+       local("raleway"),
+       url(../fonts/raleway/Raleway-Regular.ttf);
+  font-weight: bold;
+}
+body{
+  font-family: "raleway";
+}
+.brd{
+  box-shadow: none !important;
+}
+.changecol{
+  color: #1E3054 !important;
+  margin-top: 20px !important;
+  font-weight: bold !important;
+}
+.lightamber{
+  color: #E8A128 !important;
+}
+.testimonial{
+  background-color: #172C4C !important;
+  position: relative !important;
+}
+.imgCircle{
+  position: absolute; margin: -189px 173px !important;
+  width: 20% !important;
+}
+.imgtCircle{
+  position: absolute; margin: -168px -221px !important;
+  width: 20% !important;
+}
+.request{
+  border: 1px solid #fff !important;
+}
+.ptext{
+  color:#fff !important;
+}
+.pCon{
+  color:#fff !important;
+  font-size: 38px !important;
+}
+.pTel{
+  color:#fff !important;
+  font-size: 50px !important;
+}
+.conT{
+  line-height: 38px !important;
+  background-color: #E8A128 !important;
+}
+
+@media all and (max-width: 400px) {
+    .brand-logo{
+      height: auto;
+      margin-left: 22px;
+      width: 262px;
+    }
+}
