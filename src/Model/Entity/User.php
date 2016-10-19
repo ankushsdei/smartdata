@@ -1,20 +1,15 @@
 <?php
 namespace App\Model\Entity;
 
-use Cake\Auth\DefaultPasswordHasher;
 use Cake\ORM\Entity;
 
 /**
  * User Entity
  *
  * @property int $id
- * @property string $first_name
- * @property string $last_name
  * @property string $email
  * @property string $password
  * @property bool $status
- * @property \Cake\I18n\Time $modified
- * @property \Cake\I18n\Time $created
  */
 class User extends Entity
 {
