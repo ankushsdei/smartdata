@@ -1,0 +1,36 @@
+{
+    "name": "cakephp/app",
+    "homepage": "https://github.com/ankushsdei/smartdata",
+    "authors": [
+      "Ankush Sharma <ankushs@smartdatainc.net>"
+    ],
+    "description": "",
+    "main": "",
+    "require": {
+        "ext-xml": "*",
+        "ext-soap": "*",
+        "ext-pdo": "*",
+        "ext-oauth": "*",
+        "ext-ssh2": "*",
+        "ext-mbstring": "*",
+        "cakephp/cakephp": "2.9.*",
+        "tecnickcom/tcpdf": "6.0.*",
+        "twilio/sdk": "^5.4.1",
+        "pkpass/pkpass": "dev-master",
+        "google/apiclient": "^1.0.0",
+        "hps/heartland-php": "^2.8.9",
+        "dapphp/securimage": "^3.6.4",
+        "facebook/graph-sdk": "^5.2.0",
+        "aws/aws-sdk-php": "3.*",
+        "league/flysystem": "1.*",
+        "league/flysystem-aws-s3-v3": "1.*",
+        "zircote/swagger-php": "2.*",
+        "braintree/braintree_php": "3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}

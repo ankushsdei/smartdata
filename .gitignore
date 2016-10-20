@@ -1,5 +1,17 @@
-/vendor/*
-/tmp/*
-/logs/*
+# Ignore Netbeans project files
+nbproject/
+
+# Ignore Subversion files
+.svn
+
+# Ignore mac files
 .DS_Store
-/nbproject
+
+# Ignore Cake PHP temp directory contents
+app/tmp/
+
+# Ignore composer files
+app/Vendor/
+
+# Ignore bower files
+app/webroot/components

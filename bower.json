@@ -1,0 +1,36 @@
+{
+  "name": "Sample",
+  "homepage": "https://github.com/ankushsdei/smartdata",
+  "authors": [
+    "Ankush Sharma <ankushs@smartdatainc.net>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "directory": "app/webroot/components",
+  "dependencies": {
+    "jquery": "~1.12.4",
+    "jquery-ui": "~1.11.4",
+    "bootstrap": "~3.3.6",
+    "datatables.net": "~1.10.12",
+    "datatables.net-dt": "~1.10.12",
+    "datatables.net-bs": "~1.10.12",
+    "datatables.net-buttons": "~1.2.1",
+    "datatables.net-buttons-bs": "~1.2.1",
+    "datatables.net-responsive": "~2.1.0",
+    "datatables.net-responsive-dt": "~2.1.0",
+    "datatables.net-scroller": "~1.4.2",
+    "datatables.net-scroller-dt": "~1.4.2",
+    "eonasdan-bootstrap-datetimepicker": "~4.17",
+    "js-cookie": "~2.1.0",
+    "ckeditor": "~4.5.9",
+    "bxslider-4": "~4.2.5",
+    "corejs-typeahead": "https://github.com/corejavascript/typeahead.js.git#master",
+    "font-awesome": "fontawesome#^4.6.3",
+    "intl-tel-input": "~8.5.2",
+    "swagger-ui": "~2.2.3",
+    "braintree-web": "~3.0.2"
+  }
+}

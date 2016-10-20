@@ -1,25 +1,20 @@
-# CakePHP Application Skeleton
+Requirements
+------------
++ Apache web server
+    + .htaccess turned on
+    + disable directory browsing
+    + make sure AllowEncodedSlashes is set to NoDecode in httpd.conf
++ PHP 5.4+ with the following extensions:
+    + mcrypt
+    + make sure PDO extension is enabled for mysql
+    + make sure php-soap is installed
+    + make sure php-xml is installed
+    + oAuth
++ MySQL with timezone tables loaded
+    + e.g. mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root -p mysql
 
-[![Build Status](https://img.shields.io/travis/cakephp/app/master.svg?style=flat-square)](https://travis-ci.org/cakephp/app)
-[![License](https://img.shields.io/packagist/l/cakephp/app.svg?style=flat-square)](https://packagist.org/packages/cakephp/app)
 
-A skeleton for creating applications with [CakePHP](http://cakephp.org) 3.x.
-
-The framework source code can be found here: [cakephp/cakephp](https://github.com/cakephp/cakephp).
-
-## Installation
-
-1. Download [Composer](http://getcomposer.org/doc/00-intro.md) or update `composer self-update`.
-2. Run `php composer.phar create-project --prefer-dist cakephp/app [app_name]`.
-
-If Composer is installed globally, run
-```bash
-composer create-project --prefer-dist cakephp/app [app_name]
-```
-
-You should now be able to visit the path to where you installed the app and see the default home page.
-
-## Configuration
-
-Read and edit `config/app.php` and setup the 'Datasources' and any other
-configuration relevant for your application.
+Installation
+------------
++ Run command "composer install" in root folder to install PHP component
++ Run command "bower install" in root folder to install JS components
